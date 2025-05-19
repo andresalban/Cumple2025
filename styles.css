@@ -1,14 +1,10 @@
 /* Reset básico */
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 
 @font-face {
-  font-family: Andresregular-Regular;
-  src: url("fuentes/Andresregular-Regular.ttf") format("truetype");
+  font-family: Andres-Regular;
+  src: url("fuentes/Andresregular2-Regular.ttf") format("truetype");
 }
 
 html,
@@ -22,7 +18,7 @@ body {
   animation: gradient 30s ease infinite;
   height: 90vh;
 
-  font-family: "Andresregular-Regular";
+  font-family: "Andres-Regular";
   color: #ccade7;
   min-height: 100vh;
   display: flex;
@@ -34,10 +30,10 @@ body {
 }
 
 .principal {
-  padding: 5px;
+  
 }
 header {
-  margin-top: 100px;
+  
   margin-bottom: 1rem;
 }
 
@@ -79,7 +75,7 @@ video:hover {
   font-weight: 600;
   color: #ecdede;
   text-shadow: 0 5px 10px rgba(255, 255, 255, 0.8);
-  line-height: 1.4;
+  
 }
 
 footer {
@@ -101,11 +97,7 @@ footer {
   font-style: normal;
 }
 
-.contador {
-  margin-top: 10px;
-  font-size: 0.7em;
-  color: #333;
-}
+
 
 /* Confetti effect container */
 .confetti {
